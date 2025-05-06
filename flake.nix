@@ -15,7 +15,6 @@
         in
         pkgs.mkShell {
           buildInputs = with pkgs; [
-            texliveMedium
             tectonic # compiler
             ltex-ls # Grammar/spelling checker for LaTeX
             aspell
